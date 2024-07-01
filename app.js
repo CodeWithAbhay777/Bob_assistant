@@ -23,7 +23,7 @@ const openai = new OpenAI({
 
 
 // ROUTES
-app.get("/bob", (req, res) => {
+app.get("/", (req, res) => {
   res.render("index");
 });
 
